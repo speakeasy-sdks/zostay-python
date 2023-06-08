@@ -22,7 +22,7 @@ from speakeasy_api.models import operations
 
 s = speakeasy_api.SpeakeasyAPI(
     security=shared.Security(
-        api_key="YOUR_API_KEY_HERE",
+        api_key="",
     ),
 )
 
@@ -51,7 +51,7 @@ from speakeasy_api.models import operations
 
 s = speakeasy_api.SpeakeasyAPI(
     security=shared.Security(
-        api_key="YOUR_API_KEY_HERE",
+        api_key="",
     ),
 )
 
@@ -78,7 +78,7 @@ from speakeasy_api.models import operations, shared
 
 s = speakeasy_api.SpeakeasyAPI(
     security=shared.Security(
-        api_key="YOUR_API_KEY_HERE",
+        api_key="",
     ),
 )
 
